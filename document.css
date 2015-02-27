@@ -1,11 +1,24 @@
-/*--- GUIDELINES --- 
-1. Use CSS styling
-2. Use class or id specific to style elements related the visualization only
-3. Avoid using styling that alters this webapp (Example: html, body, h1, a, etc.). 
-   Documents may get flagged if doing so ---*/
-
-#canvas {
+#canvas-svg {
+  height: 500px;
 }
 
-#canvas-svg {
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+
+.link:hover {
+  stroke-opacity: .5;
 }

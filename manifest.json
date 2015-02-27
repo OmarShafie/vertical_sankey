@@ -1,6 +1,6 @@
 {
   "data": ["document.json"],
-  "javascript": ["document.js"],
+  "javascript": ["sankey.js", "document.js"],
   "stylesheet": ["document.css"],
   "html": ["document.html"],
   "properties": [
